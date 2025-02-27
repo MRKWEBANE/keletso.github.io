@@ -382,17 +382,16 @@
     border-right: none;
 }
 
-/* Responsive Heading Adjustments */
+/* Responsive for small screens */
 @media (max-width: 576px) {
     h2.m-0.text-primary {
-        font-size: 1.25rem; /* Reduce the font size for small screens */
-        text-align: center; /* Center align text */
-        margin: 0; /* Optional: Remove extra margins if needed */
+        font-size: 1.5rem !important;  /* Adjust size for smaller screens */
+        text-align: center !important; /* Center the heading */
+        margin: 0 !important;          /* Remove margin */
     }
 
-    /* Optional: Adjust the icon size as well */
     h2.m-0.text-primary i {
-        font-size: 1.5rem; /* Adjust icon size */
+        font-size: 1.2rem !important;  /* Adjust icon size */
     }
 }
 
