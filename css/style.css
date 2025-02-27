@@ -381,3 +381,18 @@
     padding-right: 0;
     border-right: none;
 }
+
+/* Responsive Heading Adjustments */
+@media (max-width: 576px) {
+    h2.m-0.text-primary {
+        font-size: 1.25rem; /* Reduce the font size for small screens */
+        text-align: center; /* Center align text */
+        margin: 0; /* Optional: Remove extra margins if needed */
+    }
+
+    /* Optional: Adjust the icon size as well */
+    h2.m-0.text-primary i {
+        font-size: 1.5rem; /* Adjust icon size */
+    }
+}
+
